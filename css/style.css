@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ body{
+    font-family: 'Poppins', sans-serif;
+ }
+
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+  }
+
+.zdex{
+    z-index: 1;
+}
+
+.text-edu{
+    color: #289BDE;
+}
+
+.btn-edu{
+    background-color: #289BDE;
+    color: white;
+}
